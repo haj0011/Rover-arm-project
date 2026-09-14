@@ -67,15 +67,6 @@ Rover-arm-project/
 4. Install any required libraries (listed at the top of the main sketch, or via **Sketch → Include Library → Manage Libraries**).
 5. Select the correct board/port under **Tools**, then verify and upload.
 6. For bench testing, control the arm tethered directly to a laptop before testing over Ethernet, per the Mission Guide.
-
-## Team
-
-- **Team Lead:** _TBD_
-- **Mechanical Lead:** _TBD_
-- **Electrical Lead:** _TBD_
-- **Software Lead:** _TBD_
-- **Mentors:** _TBD_
-
 ## Schedule (2026 Two-Month Challenge)
 
 | Milestone | Date |
