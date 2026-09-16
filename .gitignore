@@ -21,6 +21,22 @@ build/
 .piolibdeps/
 platformio.ini.bak
 
+# ---- ROS2 / colcon (Pi side) ----
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+**/build/
+**/install/
+**/log/
+
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
 # ---- OS junk ----
 .DS_Store
 Thumbs.db
