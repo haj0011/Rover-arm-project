@@ -42,8 +42,6 @@ This arm mounts to the top of a provided rover chassis via a 3" square, 4x M5 bo
 - Pull-stop kill switch
 - Onboard battery/power source
 
-> Fill in exact part numbers as the electrical subteam finalizes the BOM. Keep this in sync with the team budget tracker.
-
 ## Repository Structure
 
 ```
