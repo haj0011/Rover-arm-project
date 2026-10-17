@@ -1,0 +1,32 @@
+[0.025s] Invoking command in '/home/hunter/projects/ros2_ws/build/arm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/hunter/projects/ros2_ws/src/arm_interfaces -DCMAKE_INSTALL_PREFIX=/home/hunter/projects/ros2_ws/install/arm_interfaces
+[0.360s] -- The C compiler identification is GNU 13.3.0
+[1.197s] -- The CXX compiler identification is GNU 13.3.0
+[2.009s] -- Detecting C compiler ABI info
+[2.396s] -- Detecting C compiler ABI info - done
+[2.403s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.427s] -- Detecting C compile features
+[2.441s] -- Detecting C compile features - done
+[2.648s] -- Detecting CXX compiler ABI info
+[3.106s] -- Detecting CXX compiler ABI info - done
+[3.114s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.114s] -- Detecting CXX compile features
+[3.115s] -- Detecting CXX compile features - done
+[3.184s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.362s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.674s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[4.144s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.186s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.253s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.316s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.496s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.560s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.574s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[4.574s]   rosidl_generate_interfaces() the passed file 'msg/ArmControl.msg' doesn't
+[4.574s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[4.574s]   '/home/hunter/projects/ros2_ws/src/arm_interfaces'
+[4.574s] Call Stack (most recent call first):
+[4.574s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[4.574s] 
+[4.575s] [0m
+[4.575s] -- Configuring incomplete, errors occurred!
+[4.598s] Invoked command in '/home/hunter/projects/ros2_ws/build/arm_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/hunter/projects/ros2_ws/src/arm_interfaces -DCMAKE_INSTALL_PREFIX=/home/hunter/projects/ros2_ws/install/arm_interfaces

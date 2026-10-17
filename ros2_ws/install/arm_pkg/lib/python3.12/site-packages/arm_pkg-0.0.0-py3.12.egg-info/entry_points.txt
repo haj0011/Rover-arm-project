@@ -1,0 +1,3 @@
+[console_scripts]
+arm_node = arm_pkg.arm_node:main
+gcs_node = arm_pkg.gcs_node:main

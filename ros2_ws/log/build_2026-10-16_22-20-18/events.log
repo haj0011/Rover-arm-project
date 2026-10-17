@@ -1,0 +1,330 @@
+[0.000000] (-) TimerEvent: {}
+[0.000689] (arm_interfaces) JobQueued: {'identifier': 'arm_interfaces', 'dependencies': OrderedDict()}
+[0.000900] (arm_pkg) JobQueued: {'identifier': 'arm_pkg', 'dependencies': OrderedDict({'arm_interfaces': '/home/hunter/projects/ros2_ws/install/arm_interfaces'})}
+[0.001274] (arm_interfaces) JobStarted: {'identifier': 'arm_interfaces'}
+[0.006505] (arm_interfaces) JobProgress: {'identifier': 'arm_interfaces', 'progress': 'cmake'}
+[0.006948] (arm_interfaces) JobProgress: {'identifier': 'arm_interfaces', 'progress': 'build'}
+[0.007530] (arm_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hunter/projects/ros2_ws/build/arm_interfaces', '--', '-j24', '-l24'], 'cwd': '/home/hunter/projects/ros2_ws/build/arm_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hunter', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hunter/projects/ros2_ws/install/arm_interfaces/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{1321dc05-6df0-58f0-8da4-a8e0981662d8}', 'HOME': '/home/hunter', 'OLDPWD': '/home/hunter', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hunter/projects/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hunter', 'NAME': 'Hunters-proart', 'WSL_INTEROP': '/run/WSL/2073_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/WSL/:/mnt/c/Users/hunte/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/hunte/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/hunte/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/hunte/AppData/Local/spicetify:/mnt/c/Users/hunte/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/hunte/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '4a442824-f9c9-46aa-908e-8152a797fcd3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'PERF_EXEC_PATH': '/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/libexec/perf-core', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/hunter/projects/ros2_ws/install/arm_pkg:/home/hunter/projects/ros2_ws/install/arm_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/hunter/projects/ros2_ws/build/arm_interfaces', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hunter/projects/ros2_ws/install/arm_pkg/lib/python3.12/site-packages:/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/hunter/projects/ros2_ws/install/arm_interfaces:/home/hunter/projects/ros2_ws/install/arm_pkg:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.037737] (arm_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099411] (-) TimerEvent: {}
+[0.147313] (arm_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.199501] (-) TimerEvent: {}
+[0.264128] (arm_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.273429] (arm_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.288257] (arm_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.299597] (-) TimerEvent: {}
+[0.302236] (arm_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.344841] (arm_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.356506] (arm_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.399714] (-) TimerEvent: {}
+[0.499983] (-) TimerEvent: {}
+[0.574035] (arm_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.600066] (-) TimerEvent: {}
+[0.700303] (-) TimerEvent: {}
+[0.757369] (arm_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800400] (-) TimerEvent: {}
+[0.823040] (arm_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.825248] (arm_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[0.900516] (-) TimerEvent: {}
+[0.982561] (arm_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.000642] (-) TimerEvent: {}
+[1.031966] (arm_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.033302] (arm_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.051892] (arm_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.053279] (arm_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.056968] (arm_interfaces) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[1.089896] (arm_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.097345] (arm_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/hunter/projects/ros2_ws/build/arm_interfaces\n'}
+[1.100742] (-) TimerEvent: {}
+[1.124926] (arm_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[1.125350] (arm_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[1.133912] (arm_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_arm_interfaces\n'}
+[1.200885] (-) TimerEvent: {}
+[1.255795] (arm_interfaces) StdoutLine: {'line': b'[  4%] Built target arm_interfaces__rs\n'}
+[1.276816] (arm_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.277605] (arm_interfaces) StdoutLine: {'line': b'[  4%] Built target arm_interfaces__rosidl_generator_type_description\n'}
+[1.284597] (arm_interfaces) StdoutLine: {'line': b'writing arm_interfaces.egg-info/PKG-INFO\n'}
+[1.285114] (arm_interfaces) StdoutLine: {'line': b'writing dependency_links to arm_interfaces.egg-info/dependency_links.txt\n'}
+[1.285165] (arm_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.285197] (arm_interfaces) StdoutLine: {'line': b'writing top-level names to arm_interfaces.egg-info/top_level.txt\n'}
+[1.293902] (arm_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.300966] (-) TimerEvent: {}
+[1.305014] (arm_interfaces) StdoutLine: {'line': b"reading manifest file 'arm_interfaces.egg-info/SOURCES.txt'\n"}
+[1.305360] (arm_interfaces) StdoutLine: {'line': b"writing manifest file 'arm_interfaces.egg-info/SOURCES.txt'\n"}
+[1.328128] (arm_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_arm_interfaces_egg\n'}
+[1.401060] (-) TimerEvent: {}
+[1.434833] (arm_interfaces) StdoutLine: {'line': b'[  8%] Built target arm_interfaces__cpp\n'}
+[1.460975] (arm_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/arm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arm_interfaces/msg/detail/arm_control__description.c.o\x1b[0m\n'}
+[1.461204] (arm_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/arm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arm_interfaces/msg/detail/arm_control__functions.c.o\x1b[0m\n'}
+[1.461259] (arm_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/arm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arm_interfaces/msg/detail/arm_control__type_support.c.o\x1b[0m\n'}
+[1.461303] (arm_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/arm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arm_interfaces/msg/detail/telemetry__description.c.o\x1b[0m\n'}
+[1.463488] (arm_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/arm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arm_interfaces/msg/detail/telemetry__functions.c.o\x1b[0m\n'}
+[1.463647] (arm_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/arm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arm_interfaces/msg/detail/telemetry__type_support.c.o\x1b[0m\n'}
+[1.501198] (-) TimerEvent: {}
+[1.520753] (arm_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libarm_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.601263] (-) TimerEvent: {}
+[1.606050] (arm_interfaces) StdoutLine: {'line': b'[ 24%] Built target arm_interfaces__rosidl_generator_c\n'}
+[1.613694] (arm_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.613928] (arm_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.613981] (arm_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.614466] (arm_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.616335] (arm_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.616739] (arm_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.701417] (-) TimerEvent: {}
+[1.772025] (arm_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/arm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arm_interfaces/msg/detail/telemetry__type_support.c.o\x1b[0m\n'}
+[1.773678] (arm_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/arm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arm_interfaces/msg/detail/arm_control__type_support.c.o\x1b[0m\n'}
+[1.786118] (arm_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/arm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arm_interfaces/msg/detail/arm_control__type_support.cpp.o\x1b[0m\n'}
+[1.786551] (arm_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/arm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arm_interfaces/msg/detail/telemetry__type_support_c.cpp.o\x1b[0m\n'}
+[1.789058] (arm_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/arm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arm_interfaces/msg/detail/arm_control__type_support_c.cpp.o\x1b[0m\n'}
+[1.790246] (arm_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/arm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arm_interfaces/msg/detail/telemetry__type_support.cpp.o\x1b[0m\n'}
+[1.800830] (arm_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/arm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/arm_interfaces/msg/arm_control__type_support.cpp.o\x1b[0m\n'}
+[1.801589] (-) TimerEvent: {}
+[1.803098] (arm_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/arm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/arm_interfaces/msg/telemetry__type_support.cpp.o\x1b[0m\n'}
+[1.810757] (arm_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/arm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arm_interfaces/msg/detail/dds_fastrtps/arm_control__type_support.cpp.o\x1b[0m\n'}
+[1.811211] (arm_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/arm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arm_interfaces/msg/detail/dds_fastrtps/telemetry__type_support.cpp.o\x1b[0m\n'}
+[1.820770] (arm_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library libarm_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.829824] (arm_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/arm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arm_interfaces/msg/arm_control__type_support.cpp.o\x1b[0m\n'}
+[1.830201] (arm_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/arm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arm_interfaces/msg/telemetry__type_support.cpp.o\x1b[0m\n'}
+[1.848663] (arm_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libarm_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.901759] (-) TimerEvent: {}
+[1.936093] (arm_interfaces) StdoutLine: {'line': b'[ 68%] Built target arm_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.976339] (arm_interfaces) StdoutLine: {'line': b'[ 68%] Built target arm_interfaces__rosidl_typesupport_c\n'}
+[2.001919] (-) TimerEvent: {}
+[2.102311] (-) TimerEvent: {}
+[2.116819] (arm_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libarm_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.169402] (arm_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libarm_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.202449] (-) TimerEvent: {}
+[2.213236] (arm_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libarm_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.225461] (arm_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libarm_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.227387] (arm_interfaces) StdoutLine: {'line': b'[ 77%] Built target arm_interfaces__rosidl_typesupport_cpp\n'}
+[2.273058] (arm_interfaces) StdoutLine: {'line': b'[ 77%] Built target arm_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.301325] (arm_interfaces) StdoutLine: {'line': b'[ 77%] Built target arm_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.302499] (-) TimerEvent: {}
+[2.311604] (arm_interfaces) StdoutLine: {'line': b'[ 77%] Built target arm_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.325652] (arm_interfaces) StdoutLine: {'line': b'[ 77%] Built target arm_interfaces\n'}
+[2.339836] (arm_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.402618] (-) TimerEvent: {}
+[2.502976] (-) TimerEvent: {}
+[2.504090] (arm_interfaces) StdoutLine: {'line': b'[ 80%] Built target arm_interfaces__py\n'}
+[2.520911] (arm_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/arm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/arm_interfaces/msg/_arm_control_s.c.o\x1b[0m\n'}
+[2.521452] (arm_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/arm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/arm_interfaces/msg/_telemetry_s.c.o\x1b[0m\n'}
+[2.603064] (-) TimerEvent: {}
+[2.629145] (arm_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library libarm_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[2.703286] (-) TimerEvent: {}
+[2.711203] (arm_interfaces) StdoutLine: {'line': b'[ 86%] Built target arm_interfaces__rosidl_generator_py\n'}
+[2.728692] (arm_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/arm_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/arm_interfaces/_arm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.729407] (arm_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/arm_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/arm_interfaces/_arm_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.729468] (arm_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/arm_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/arm_interfaces/_arm_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.790097] (arm_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/arm_interfaces/arm_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.790271] (arm_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/arm_interfaces/arm_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.793524] (arm_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/arm_interfaces/arm_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.803392] (-) TimerEvent: {}
+[2.838868] (arm_interfaces) StdoutLine: {'line': b'[100%] Built target arm_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[2.840028] (arm_interfaces) StdoutLine: {'line': b'[100%] Built target arm_interfaces_s__rosidl_typesupport_c\n'}
+[2.866361] (arm_interfaces) StdoutLine: {'line': b'[100%] Built target arm_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[2.875772] (arm_interfaces) CommandEnded: {'returncode': 0}
+[2.876422] (arm_interfaces) JobProgress: {'identifier': 'arm_interfaces', 'progress': 'install'}
+[2.883393] (arm_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hunter/projects/ros2_ws/build/arm_interfaces'], 'cwd': '/home/hunter/projects/ros2_ws/build/arm_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hunter', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hunter/projects/ros2_ws/install/arm_interfaces/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{1321dc05-6df0-58f0-8da4-a8e0981662d8}', 'HOME': '/home/hunter', 'OLDPWD': '/home/hunter', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hunter/projects/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hunter', 'NAME': 'Hunters-proart', 'WSL_INTEROP': '/run/WSL/2073_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/WSL/:/mnt/c/Users/hunte/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/hunte/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/hunte/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/hunte/AppData/Local/spicetify:/mnt/c/Users/hunte/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/hunte/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '4a442824-f9c9-46aa-908e-8152a797fcd3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'PERF_EXEC_PATH': '/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/libexec/perf-core', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/hunter/projects/ros2_ws/install/arm_pkg:/home/hunter/projects/ros2_ws/install/arm_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/hunter/projects/ros2_ws/build/arm_interfaces', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hunter/projects/ros2_ws/install/arm_pkg/lib/python3.12/site-packages:/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/hunter/projects/ros2_ws/install/arm_interfaces:/home/hunter/projects/ros2_ws/install/arm_pkg:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[2.888733] (arm_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.888971] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/ament_index/resource_index/rosidl_interfaces/arm_interfaces\n'}
+[2.889038] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/msg/ArmControl.json\n'}
+[2.889146] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/msg/Telemetry.json\n'}
+[2.889339] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces\n'}
+[2.889525] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg\n'}
+[2.889561] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.889588] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail\n'}
+[2.889612] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/arm_control__type_support.c\n'}
+[2.889741] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/telemetry__functions.h\n'}
+[2.890018] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/telemetry__type_support.c\n'}
+[2.890159] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/arm_control__functions.h\n'}
+[2.890201] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/telemetry__struct.h\n'}
+[2.890317] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/telemetry__type_support.h\n'}
+[2.890649] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/arm_control__type_support.h\n'}
+[2.890712] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/arm_control__description.c\n'}
+[2.890968] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/telemetry__description.c\n'}
+[2.891029] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/arm_control__functions.c\n'}
+[2.891115] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/arm_control__struct.h\n'}
+[2.891175] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/telemetry__functions.c\n'}
+[2.891280] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/arm_control.h\n'}
+[2.891464] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/telemetry.h\n'}
+[2.891630] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/environment/library_path.sh\n'}
+[2.891690] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/environment/library_path.dsv\n'}
+[2.891858] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/libarm_interfaces__rosidl_generator_c.so\n'}
+[2.892312] (arm_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/libarm_interfaces__rosidl_generator_c.so" to ""\n'}
+[2.892377] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces\n'}
+[2.892583] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg\n'}
+[2.892871] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.892931] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail\n'}
+[2.892963] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/telemetry__rosidl_typesupport_fastrtps_c.h\n'}
+[2.892990] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/arm_control__rosidl_typesupport_fastrtps_c.h\n'}
+[2.893012] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.893194] (arm_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.893419] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces\n'}
+[2.893482] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg\n'}
+[2.893598] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/telemetry.hpp\n'}
+[2.893636] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/arm_control.hpp\n'}
+[2.893795] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail\n'}
+[2.894067] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/arm_control__traits.hpp\n'}
+[2.894109] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/telemetry__struct.hpp\n'}
+[2.894134] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/arm_control__type_support.hpp\n'}
+[2.894239] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/telemetry__builder.hpp\n'}
+[2.894370] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/arm_control__struct.hpp\n'}
+[2.894500] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/telemetry__type_support.hpp\n'}
+[2.894645] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/arm_control__builder.hpp\n'}
+[2.894791] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/telemetry__traits.hpp\n'}
+[2.894937] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.895094] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces\n'}
+[2.895155] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg\n'}
+[2.895280] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.895459] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail\n'}
+[2.895721] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/dds_fastrtps\n'}
+[2.895786] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/telemetry__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.895818] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/arm_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.895846] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.896050] (arm_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.896171] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces\n'}
+[2.896206] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg\n'}
+[2.896600] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail\n'}
+[2.896869] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/arm_control__type_support.c\n'}
+[2.896935] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/telemetry__type_support.c\n'}
+[2.896963] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/telemetry__rosidl_typesupport_introspection_c.h\n'}
+[2.896988] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/arm_control__rosidl_typesupport_introspection_c.h\n'}
+[2.897016] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.897147] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.897325] (arm_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.897466] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_c.so\n'}
+[2.897807] (arm_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[2.898239] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces\n'}
+[2.898627] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg\n'}
+[2.898994] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail\n'}
+[2.899139] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/arm_control__type_support.cpp\n'}
+[2.899178] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/arm_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.899208] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/telemetry__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.899232] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/include/arm_interfaces/arm_interfaces/msg/detail/telemetry__type_support.cpp\n'}
+[2.899261] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.899285] (arm_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.899314] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.899552] (arm_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/libarm_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[2.899732] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/environment/pythonpath.sh\n'}
+[2.899839] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/environment/pythonpath.dsv\n'}
+[2.900345] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces-0.0.0-py3.12.egg-info\n'}
+[2.901115] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[2.901574] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[2.901807] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[2.901980] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[2.902161] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces\n'}
+[2.902347] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/arm_interfaces_s__rosidl_typesupport_c.so\n'}
+[2.902379] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/arm_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[2.902404] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/msg\n'}
+[2.902428] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/msg/_arm_control_s.c\n'}
+[2.902450] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/msg/_telemetry_s.c\n'}
+[2.902473] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/msg/__init__.py\n'}
+[2.902495] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/msg/_arm_control.py\n'}
+[2.902517] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/msg/_telemetry.py\n'}
+[2.902539] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/_arm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.902560] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/__init__.py\n'}
+[2.902587] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/_arm_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[2.902609] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/arm_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[2.902630] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/_arm_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.903411] (-) TimerEvent: {}
+[2.927766] (arm_interfaces) StdoutLine: {'line': b"Listing '/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces'...\n"}
+[2.927901] (arm_interfaces) StdoutLine: {'line': b"Compiling '/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/__init__.py'...\n"}
+[2.927932] (arm_interfaces) StdoutLine: {'line': b"Listing '/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/msg'...\n"}
+[2.927957] (arm_interfaces) StdoutLine: {'line': b"Compiling '/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/msg/__init__.py'...\n"}
+[2.927979] (arm_interfaces) StdoutLine: {'line': b"Compiling '/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/msg/_arm_control.py'...\n"}
+[2.928002] (arm_interfaces) StdoutLine: {'line': b"Compiling '/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/msg/_telemetry.py'...\n"}
+[2.931895] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/arm_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[2.932496] (arm_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/arm_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.932774] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/arm_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[2.933062] (arm_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/arm_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.933132] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/arm_interfaces_s__rosidl_typesupport_c.so\n'}
+[2.933237] (arm_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages/arm_interfaces/arm_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[2.933294] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/lib/libarm_interfaces__rosidl_generator_py.so\n'}
+[2.933583] (arm_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/libarm_interfaces__rosidl_generator_py.so" to ""\n'}
+[2.933783] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/rust\n'}
+[2.934079] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/rust/Cargo.toml\n'}
+[2.934142] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/rust/build.rs\n'}
+[2.934171] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/rust/src\n'}
+[2.934248] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/rust/src/msg.rs\n'}
+[2.934606] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/rust/src/msg\n'}
+[2.934936] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/rust/src/msg/rmw.rs\n'}
+[2.935107] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/rust/src/lib.rs\n'}
+[2.935464] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/msg/ArmControl.idl\n'}
+[2.935592] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/msg/Telemetry.idl\n'}
+[2.935851] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/msg/ArmControl.msg\n'}
+[2.935890] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/msg/Telemetry.msg\n'}
+[2.935922] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/ament_index/resource_index/package_run_dependencies/arm_interfaces\n'}
+[2.936626] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/ament_index/resource_index/parent_prefix_path/arm_interfaces\n'}
+[2.936697] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/environment/ament_prefix_path.sh\n'}
+[2.936795] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.936827] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/environment/path.sh\n'}
+[2.936852] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/environment/path.dsv\n'}
+[2.936954] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/local_setup.bash\n'}
+[2.937005] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/local_setup.sh\n'}
+[2.937033] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/local_setup.zsh\n'}
+[2.937124] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/local_setup.dsv\n'}
+[2.937231] (arm_interfaces) StdoutLine: {'line': b'-- Installing: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/package.dsv\n'}
+[2.937482] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/ament_index/resource_index/packages/arm_interfaces\n'}
+[2.937547] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/export_arm_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.937584] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/export_arm_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.937681] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/export_arm_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.937839] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/export_arm_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.937929] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/export_arm_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.938031] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/export_arm_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.938312] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/export_arm_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.938474] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/arm_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.938677] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/arm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.938738] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/arm_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.938767] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/arm_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.938793] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/arm_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.938816] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/arm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.938839] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/arm_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.938861] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/arm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.938884] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/export_arm_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.938908] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/export_arm_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.938931] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.938953] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.938975] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.938997] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.939019] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.939041] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.939062] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.939084] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[2.939106] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/arm_interfacesConfig.cmake\n'}
+[2.939128] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/cmake/arm_interfacesConfig-version.cmake\n'}
+[2.939149] (arm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hunter/projects/ros2_ws/install/arm_interfaces/share/arm_interfaces/package.xml\n'}
+[2.940551] (arm_interfaces) CommandEnded: {'returncode': 0}
+[2.952530] (arm_interfaces) JobEnded: {'identifier': 'arm_interfaces', 'rc': 0}
+[2.953348] (arm_pkg) JobStarted: {'identifier': 'arm_pkg'}
+[3.003584] (-) TimerEvent: {}
+[3.103914] (-) TimerEvent: {}
+[3.204252] (-) TimerEvent: {}
+[3.304562] (-) TimerEvent: {}
+[3.404872] (-) TimerEvent: {}
+[3.505227] (-) TimerEvent: {}
+[3.506818] (arm_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arm_pkg', 'build', '--build-base', '/home/hunter/projects/ros2_ws/build/arm_pkg/build', 'install', '--record', '/home/hunter/projects/ros2_ws/build/arm_pkg/install.log', '--install-scripts', '$base/lib/arm_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hunter/projects/ros2_ws/src/arm_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hunter', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hunter/projects/ros2_ws/install/arm_interfaces/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{1321dc05-6df0-58f0-8da4-a8e0981662d8}', 'HOME': '/home/hunter', 'OLDPWD': '/home/hunter', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hunter/projects/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hunter', 'NAME': 'Hunters-proart', 'WSL_INTEROP': '/run/WSL/2073_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/WSL/:/mnt/c/Users/hunte/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/hunte/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/hunte/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/hunte/AppData/Local/spicetify:/mnt/c/Users/hunte/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/hunte/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '4a442824-f9c9-46aa-908e-8152a797fcd3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'PERF_EXEC_PATH': '/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/libexec/perf-core', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/hunter/projects/ros2_ws/install/arm_pkg:/home/hunter/projects/ros2_ws/install/arm_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/hunter/projects/ros2_ws/build/arm_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hunter/projects/ros2_ws/build/arm_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hunter/projects/ros2_ws/install/arm_pkg/lib/python3.12/site-packages:/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages:/home/hunter/projects/ros2_ws/install/arm_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/hunter/projects/ros2_ws/install/arm_interfaces', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[3.605290] (-) TimerEvent: {}
+[3.618113] (arm_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.624264] (arm_pkg) StdoutLine: {'line': b'writing ../../build/arm_pkg/arm_pkg.egg-info/PKG-INFO\n'}
+[3.624815] (arm_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/arm_pkg/arm_pkg.egg-info/dependency_links.txt\n'}
+[3.625103] (arm_pkg) StdoutLine: {'line': b'writing entry points to ../../build/arm_pkg/arm_pkg.egg-info/entry_points.txt\n'}
+[3.625198] (arm_pkg) StdoutLine: {'line': b'writing requirements to ../../build/arm_pkg/arm_pkg.egg-info/requires.txt\n'}
+[3.625269] (arm_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/arm_pkg/arm_pkg.egg-info/top_level.txt\n'}
+[3.637917] (arm_pkg) StdoutLine: {'line': b"reading manifest file '../../build/arm_pkg/arm_pkg.egg-info/SOURCES.txt'\n"}
+[3.638358] (arm_pkg) StdoutLine: {'line': b"writing manifest file '../../build/arm_pkg/arm_pkg.egg-info/SOURCES.txt'\n"}
+[3.638519] (arm_pkg) StdoutLine: {'line': b'running build\n'}
+[3.638761] (arm_pkg) StdoutLine: {'line': b'running build_py\n'}
+[3.638874] (arm_pkg) StdoutLine: {'line': b'running install\n'}
+[3.641710] (arm_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[3.648945] (arm_pkg) StdoutLine: {'line': b'running install_data\n'}
+[3.649133] (arm_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.655975] (arm_pkg) StdoutLine: {'line': b"removing '/home/hunter/projects/ros2_ws/install/arm_pkg/lib/python3.12/site-packages/arm_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[3.656295] (arm_pkg) StdoutLine: {'line': b'Copying ../../build/arm_pkg/arm_pkg.egg-info to /home/hunter/projects/ros2_ws/install/arm_pkg/lib/python3.12/site-packages/arm_pkg-0.0.0-py3.12.egg-info\n'}
+[3.657195] (arm_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[3.705385] (-) TimerEvent: {}
+[3.711357] (arm_pkg) StdoutLine: {'line': b'Installing arm_node script to /home/hunter/projects/ros2_ws/install/arm_pkg/lib/arm_pkg\n'}
+[3.711572] (arm_pkg) StdoutLine: {'line': b'Installing gcs_node script to /home/hunter/projects/ros2_ws/install/arm_pkg/lib/arm_pkg\n'}
+[3.711748] (arm_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/hunter/projects/ros2_ws/build/arm_pkg/install.log'\n"}
+[3.731655] (arm_pkg) CommandEnded: {'returncode': 0}
+[3.735524] (arm_pkg) JobEnded: {'identifier': 'arm_pkg', 'rc': 0}
+[3.736534] (-) EventReactorShutdown: {}

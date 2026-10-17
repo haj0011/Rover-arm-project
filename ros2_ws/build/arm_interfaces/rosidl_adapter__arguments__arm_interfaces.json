@@ -1,0 +1,7 @@
+{
+  "package_name": "arm_interfaces",
+  "non_idl_tuples": [
+    "/home/hunter/projects/ros2_ws/src/arm_interfaces:msg/ArmControl.msg",
+    "/home/hunter/projects/ros2_ws/src/arm_interfaces:msg/Telemetry.msg"
+  ]
+}

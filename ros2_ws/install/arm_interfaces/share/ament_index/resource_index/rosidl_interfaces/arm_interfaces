@@ -1,0 +1,4 @@
+msg/ArmControl.idl
+msg/ArmControl.msg
+msg/Telemetry.idl
+msg/Telemetry.msg

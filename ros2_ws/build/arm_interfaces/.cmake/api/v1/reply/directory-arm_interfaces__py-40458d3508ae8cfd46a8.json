@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "arm_interfaces__py",
+		"source" : "/home/hunter/projects/ros2_ws/build/arm_interfaces/arm_interfaces__py"
+	}
+}

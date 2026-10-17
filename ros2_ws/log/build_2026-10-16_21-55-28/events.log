@@ -1,0 +1,84 @@
+[0.000000] (-) TimerEvent: {}
+[0.000352] (arm_interfaces) JobQueued: {'identifier': 'arm_interfaces', 'dependencies': OrderedDict()}
+[0.001763] (arm_interfaces) JobStarted: {'identifier': 'arm_interfaces'}
+[0.021806] (arm_interfaces) JobProgress: {'identifier': 'arm_interfaces', 'progress': 'cmake'}
+[0.024943] (arm_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/hunter/projects/ros2_ws/src/arm_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/hunter/projects/ros2_ws/install/arm_interfaces'], 'cwd': '/home/hunter/projects/ros2_ws/build/arm_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hunter', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{1321dc05-6df0-58f0-8da4-a8e0981662d8}', 'HOME': '/home/hunter', 'OLDPWD': '/home/hunter/projects/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hunter', 'NAME': 'Hunters-proart', 'WSL_INTEROP': '/run/WSL/581_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/WSL/:/mnt/c/Users/hunte/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/hunte/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/hunte/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/hunte/AppData/Local/spicetify:/mnt/c/Users/hunte/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/hunte/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '9a40aba5-611c-4ef0-b704-1eab19ea33d6', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'PERF_EXEC_PATH': '/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/libexec/perf-core', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/hunter/projects/ros2_ws/build/arm_interfaces', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[0.099299] (-) TimerEvent: {}
+[0.199691] (-) TimerEvent: {}
+[0.300108] (-) TimerEvent: {}
+[0.361611] (arm_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.400235] (-) TimerEvent: {}
+[0.500875] (-) TimerEvent: {}
+[0.601390] (-) TimerEvent: {}
+[0.703389] (-) TimerEvent: {}
+[0.804071] (-) TimerEvent: {}
+[0.904612] (-) TimerEvent: {}
+[1.005057] (-) TimerEvent: {}
+[1.105469] (-) TimerEvent: {}
+[1.198077] (arm_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.205588] (-) TimerEvent: {}
+[1.306161] (-) TimerEvent: {}
+[1.406660] (-) TimerEvent: {}
+[1.507182] (-) TimerEvent: {}
+[1.607825] (-) TimerEvent: {}
+[1.708630] (-) TimerEvent: {}
+[1.809233] (-) TimerEvent: {}
+[1.909801] (-) TimerEvent: {}
+[2.010162] (arm_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.010467] (-) TimerEvent: {}
+[2.110925] (-) TimerEvent: {}
+[2.211569] (-) TimerEvent: {}
+[2.312052] (-) TimerEvent: {}
+[2.397266] (arm_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.404595] (arm_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.412127] (-) TimerEvent: {}
+[2.428429] (arm_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.441913] (arm_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.512401] (-) TimerEvent: {}
+[2.613182] (-) TimerEvent: {}
+[2.649478] (arm_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.713342] (-) TimerEvent: {}
+[2.813805] (-) TimerEvent: {}
+[2.914371] (-) TimerEvent: {}
+[3.014945] (-) TimerEvent: {}
+[3.107352] (arm_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.115019] (arm_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.115484] (-) TimerEvent: {}
+[3.115653] (arm_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.116399] (arm_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.185506] (arm_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.215718] (-) TimerEvent: {}
+[3.316325] (-) TimerEvent: {}
+[3.363212] (arm_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.416478] (-) TimerEvent: {}
+[3.516964] (-) TimerEvent: {}
+[3.617607] (-) TimerEvent: {}
+[3.675367] (arm_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[3.717811] (-) TimerEvent: {}
+[3.818470] (-) TimerEvent: {}
+[3.919307] (-) TimerEvent: {}
+[4.019943] (-) TimerEvent: {}
+[4.120559] (-) TimerEvent: {}
+[4.145573] (arm_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[4.186901] (arm_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[4.220819] (-) TimerEvent: {}
+[4.254301] (arm_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.317060] (arm_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.320979] (-) TimerEvent: {}
+[4.421598] (-) TimerEvent: {}
+[4.497688] (arm_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[4.522345] (-) TimerEvent: {}
+[4.561927] (arm_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[4.574488] (arm_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):\n'}
+[4.575520] (arm_interfaces) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'msg/ArmControl.msg' doesn't\n"}
+[4.575819] (arm_interfaces) StderrLine: {'line': b'  exist relative to the CMAKE_CURRENT_SOURCE_DIR\n'}
+[4.575934] (arm_interfaces) StderrLine: {'line': b"  '/home/hunter/projects/ros2_ws/src/arm_interfaces'\n"}
+[4.576020] (arm_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.576097] (arm_interfaces) StderrLine: {'line': b'  CMakeLists.txt:13 (rosidl_generate_interfaces)\n'}
+[4.576169] (arm_interfaces) StderrLine: {'line': b'\n'}
+[4.576239] (arm_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[4.576310] (arm_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.598443] (arm_interfaces) CommandEnded: {'returncode': 1}
+[4.622666] (-) TimerEvent: {}
+[4.695881] (arm_interfaces) JobEnded: {'identifier': 'arm_interfaces', 'rc': 1}
+[4.706628] (-) EventReactorShutdown: {}

@@ -1,0 +1,41 @@
+[1.479s] Invoking command in '/home/hunter/projects/ros2_ws/src/arm_pkg': AMENT_PREFIX_PATH=/home/hunter/projects/ros2_ws/install/arm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunter/projects/ros2_ws/install/arm_interfaces LD_LIBRARY_PATH=/home/hunter/projects/ros2_ws/install/arm_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hunter/projects/ros2_ws/build/arm_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hunter/projects/ros2_ws/install/arm_pkg/lib/python3.12/site-packages:/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_pkg build --build-base /home/hunter/projects/ros2_ws/build/arm_pkg/build install --record /home/hunter/projects/ros2_ws/build/arm_pkg/install.log --install-scripts $base/lib/arm_pkg --single-version-externally-managed install_data
+[1.690s] running egg_info
+[1.690s] creating ../../build/arm_pkg/arm_pkg.egg-info
+[1.708s] writing ../../build/arm_pkg/arm_pkg.egg-info/PKG-INFO
+[1.709s] writing dependency_links to ../../build/arm_pkg/arm_pkg.egg-info/dependency_links.txt
+[1.709s] writing entry points to ../../build/arm_pkg/arm_pkg.egg-info/entry_points.txt
+[1.709s] writing requirements to ../../build/arm_pkg/arm_pkg.egg-info/requires.txt
+[1.709s] writing top-level names to ../../build/arm_pkg/arm_pkg.egg-info/top_level.txt
+[1.709s] writing manifest file '../../build/arm_pkg/arm_pkg.egg-info/SOURCES.txt'
+[1.738s] reading manifest file '../../build/arm_pkg/arm_pkg.egg-info/SOURCES.txt'
+[1.739s] writing manifest file '../../build/arm_pkg/arm_pkg.egg-info/SOURCES.txt'
+[1.739s] running build
+[1.739s] running build_py
+[1.740s] creating /home/hunter/projects/ros2_ws/build/arm_pkg/build
+[1.741s] creating /home/hunter/projects/ros2_ws/build/arm_pkg/build/lib
+[1.741s] creating /home/hunter/projects/ros2_ws/build/arm_pkg/build/lib/arm_pkg
+[1.742s] copying arm_pkg/gcs_node.py -> /home/hunter/projects/ros2_ws/build/arm_pkg/build/lib/arm_pkg
+[1.742s] copying arm_pkg/__init__.py -> /home/hunter/projects/ros2_ws/build/arm_pkg/build/lib/arm_pkg
+[1.742s] copying arm_pkg/arm_node.py -> /home/hunter/projects/ros2_ws/build/arm_pkg/build/lib/arm_pkg
+[1.742s] running install
+[1.747s] running install_lib
+[1.758s] creating /home/hunter/projects/ros2_ws/install/arm_pkg/lib/python3.12/site-packages/arm_pkg
+[1.759s] copying /home/hunter/projects/ros2_ws/build/arm_pkg/build/lib/arm_pkg/gcs_node.py -> /home/hunter/projects/ros2_ws/install/arm_pkg/lib/python3.12/site-packages/arm_pkg
+[1.759s] copying /home/hunter/projects/ros2_ws/build/arm_pkg/build/lib/arm_pkg/__init__.py -> /home/hunter/projects/ros2_ws/install/arm_pkg/lib/python3.12/site-packages/arm_pkg
+[1.759s] copying /home/hunter/projects/ros2_ws/build/arm_pkg/build/lib/arm_pkg/arm_node.py -> /home/hunter/projects/ros2_ws/install/arm_pkg/lib/python3.12/site-packages/arm_pkg
+[1.760s] byte-compiling /home/hunter/projects/ros2_ws/install/arm_pkg/lib/python3.12/site-packages/arm_pkg/gcs_node.py to gcs_node.cpython-312.pyc
+[1.762s] byte-compiling /home/hunter/projects/ros2_ws/install/arm_pkg/lib/python3.12/site-packages/arm_pkg/__init__.py to __init__.cpython-312.pyc
+[1.762s] byte-compiling /home/hunter/projects/ros2_ws/install/arm_pkg/lib/python3.12/site-packages/arm_pkg/arm_node.py to arm_node.cpython-312.pyc
+[1.762s] running install_data
+[1.763s] creating /home/hunter/projects/ros2_ws/install/arm_pkg/share/ament_index
+[1.763s] creating /home/hunter/projects/ros2_ws/install/arm_pkg/share/ament_index/resource_index
+[1.764s] creating /home/hunter/projects/ros2_ws/install/arm_pkg/share/ament_index/resource_index/packages
+[1.765s] copying resource/arm_pkg -> /home/hunter/projects/ros2_ws/install/arm_pkg/share/ament_index/resource_index/packages
+[1.766s] copying package.xml -> /home/hunter/projects/ros2_ws/install/arm_pkg/share/arm_pkg
+[1.767s] running install_egg_info
+[1.779s] Copying ../../build/arm_pkg/arm_pkg.egg-info to /home/hunter/projects/ros2_ws/install/arm_pkg/lib/python3.12/site-packages/arm_pkg-0.0.0-py3.12.egg-info
+[1.781s] running install_scripts
+[1.878s] Installing arm_node script to /home/hunter/projects/ros2_ws/install/arm_pkg/lib/arm_pkg
+[1.878s] Installing gcs_node script to /home/hunter/projects/ros2_ws/install/arm_pkg/lib/arm_pkg
+[1.878s] writing list of installed files to '/home/hunter/projects/ros2_ws/build/arm_pkg/install.log'
+[1.905s] Invoked command in '/home/hunter/projects/ros2_ws/src/arm_pkg' returned '0': AMENT_PREFIX_PATH=/home/hunter/projects/ros2_ws/install/arm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunter/projects/ros2_ws/install/arm_interfaces LD_LIBRARY_PATH=/home/hunter/projects/ros2_ws/install/arm_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hunter/projects/ros2_ws/build/arm_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hunter/projects/ros2_ws/install/arm_pkg/lib/python3.12/site-packages:/home/hunter/projects/ros2_ws/install/arm_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_pkg build --build-base /home/hunter/projects/ros2_ws/build/arm_pkg/build install --record /home/hunter/projects/ros2_ws/build/arm_pkg/install.log --install-scripts $base/lib/arm_pkg --single-version-externally-managed install_data

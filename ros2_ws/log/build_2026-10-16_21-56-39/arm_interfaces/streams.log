@@ -1,0 +1,51 @@
+[0.014s] Invoking command in '/home/hunter/projects/ros2_ws/build/arm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/hunter/projects/ros2_ws/src/arm_interfaces -DCMAKE_INSTALL_PREFIX=/home/hunter/projects/ros2_ws/install/arm_interfaces
+[0.028s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.248s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.524s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.534s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.545s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.558s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.600s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.612s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.652s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.968s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.370s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.419s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.569s] -- Found PythonExtra: /usr/bin/python3  
+[4.217s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.518s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.565s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.668s] -- Added test 'lint_cmake' to check CMake code style
+[4.674s] -- Added test 'xmllint' to check XML markup files
+[4.683s] -- Configuring done (4.7s)
+[4.848s] -- Generating done (0.2s)
+[4.872s] -- Build files have been written to: /home/hunter/projects/ros2_ws/build/arm_interfaces
+[4.899s] Invoked command in '/home/hunter/projects/ros2_ws/build/arm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/hunter/projects/ros2_ws/src/arm_interfaces -DCMAKE_INSTALL_PREFIX=/home/hunter/projects/ros2_ws/install/arm_interfaces
+[4.901s] Invoking command in '/home/hunter/projects/ros2_ws/build/arm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/hunter/projects/ros2_ws/build/arm_interfaces -- -j24 -l24
+[4.980s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.981s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[4.995s] [  4%] Built target ament_cmake_python_copy_arm_interfaces
+[5.353s] running egg_info
+[5.354s] creating arm_interfaces.egg-info
+[5.378s] writing arm_interfaces.egg-info/PKG-INFO
+[5.378s] writing dependency_links to arm_interfaces.egg-info/dependency_links.txt
+[5.379s] writing top-level names to arm_interfaces.egg-info/top_level.txt
+[5.380s] writing manifest file 'arm_interfaces.egg-info/SOURCES.txt'
+[5.460s] [  4%] Built target arm_interfaces__rs
+[5.476s] reading manifest file 'arm_interfaces.egg-info/SOURCES.txt'
+[5.477s] writing manifest file 'arm_interfaces.egg-info/SOURCES.txt'
+[5.552s] [  4%] Built target ament_cmake_python_build_arm_interfaces_egg
+[10.572s] Traceback (most recent call last):
+[10.573s]   File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>
+[10.573s]     sys.exit(main())
+[10.574s]              ^^^^^^
+[10.575s]   File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main
+[10.575s]     generate_type_hash(args.generator_arguments_file)
+[10.576s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 160, in generate_type_hash
+[10.576s]     pkg_dir = include_map[pkg]
+[10.576s]               ~~~~~~~~~~~^^^^^
+[10.576s] KeyError: 'geometry_messages'
+[10.631s] gmake[2]: *** [CMakeFiles/arm_interfaces__rosidl_generator_type_description.dir/build.make:77: rosidl_generator_type_description/arm_interfaces/msg/ArmControl.json] Error 1
+[10.632s] gmake[1]: *** [CMakeFiles/Makefile2:234: CMakeFiles/arm_interfaces__rosidl_generator_type_description.dir/all] Error 2
+[10.632s] gmake: *** [Makefile:146: all] Error 2
+[10.638s] Invoked command in '/home/hunter/projects/ros2_ws/build/arm_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/hunter/projects/ros2_ws/build/arm_interfaces -- -j24 -l24

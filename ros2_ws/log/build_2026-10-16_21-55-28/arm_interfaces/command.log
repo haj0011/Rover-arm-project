@@ -1,0 +1,2 @@
+Invoking command in '/home/hunter/projects/ros2_ws/build/arm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/hunter/projects/ros2_ws/src/arm_interfaces -DCMAKE_INSTALL_PREFIX=/home/hunter/projects/ros2_ws/install/arm_interfaces
+Invoked command in '/home/hunter/projects/ros2_ws/build/arm_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/hunter/projects/ros2_ws/src/arm_interfaces -DCMAKE_INSTALL_PREFIX=/home/hunter/projects/ros2_ws/install/arm_interfaces
